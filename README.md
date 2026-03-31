@@ -1,16 +1,36 @@
-# React + Vite
+React Learning Project
+A comprehensive React learning project demonstrating core concepts including form handling, input components, and React lifecycle hooks.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📋 Overview
+This project serves as a practical learning resource for React fundamentals:
 
-Currently, two official plugins are available:
+Form handling and validation
+Reusable input components
+React Lifecycle hooks (mounted, updated, unmounted)
+Component state management
+🎯 Components
+1. RegistrationForm
+A user registration form component with built-in validation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+User input fields: name, email, password
+Real-time data validation
+Error message display
+Form submission handling
+2. PromoCodeInput
+A specialized input component for promotional code entry with auto-focus functionality.
 
-## React Compiler
+Promo code input field
+Automatic focus on component mount
+Code submission handling
+User feedback on input
+3. LifecycleDemo
+An interactive component demonstrating React lifecycle hooks.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Mounted: Logs when component is created
+Updated: Logs when component state changes
+Unmounted: Logs when component is removed from DOM
+Real-time log display on the UI
+🚀 Getting Started
+Prerequisites
+Node.js v14 or higher
+npm or yarn package manager
